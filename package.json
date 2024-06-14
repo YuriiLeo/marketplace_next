@@ -1,0 +1,31 @@
+{
+	"name": "my-market-place",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint --fix",
+		"prettier": "prettier . --write",
+		"format": "pnpm run lint && pnpm run prettier"
+	},
+	"dependencies": {
+		"@emotion/cache": "^11.11.0",
+		"@emotion/react": "^11.11.4",
+		"@emotion/server": "^11.11.0",
+		"@emotion/styled": "^11.11.5",
+		"@mui/material-nextjs": "^5.15.11",
+		"axios": "^1.7.2",
+		"next": "14.2.3",
+		"next-themes": "^0.3.0",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"devDependencies": {
+		"eslint": "^8",
+		"eslint-config-next": "14.2.3",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "^3.3.2"
+	}
+}
