@@ -35,6 +35,10 @@ const Catalog = ({ initialData }) => {
 
 	return (
 		<Layout>
+			<Head>
+				<title>Product Catalog</title>
+				<meta name="description" content="Browse our catalog of amazing products." />
+			</Head>
 			<Typography sx={{ my: '2rem', textAlign: 'center' }} variant="h4" component="h1" gutterBottom>
 				Products Catalog
 			</Typography>
