@@ -1,7 +1,8 @@
-'use client'
+'use client';
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Pagination from '@mui/material/Pagination';
